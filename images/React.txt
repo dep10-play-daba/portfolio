@@ -1,0 +1,47 @@
+* to initiate an react app
+	npx create-react-app <app name> --template=typescript
+	npx create-react-app hello-react --template=typescript
+	
+or else
+
+	* install pnpx
+		sudo update-alternatives --install /usr/bin/pnpx pnpx /opt/nodejs/node-v20.3.0/bin/pnpx 1
+	
+	* then pnpx create react app
+		pnpx create-react-app <app name> --template=typescript
+		
+
+Usser interfaces
+	1.Class based components
+	2.Functional components
+
+(View [HTML*] + Logic [TypeScript]) =TSX (TypeScript XML)
+
+export function App(){
+
+	/*Logics*/
+	/* State */
+	const [x,setX]=useState(1);		for one way data binding
+	
+	
+	return(<>
+		
+		we can't use attributes , only can be use properties
+		<div>{x}</div>
+		
+		<button on click={()=> setX(10)}>Click<button>  by using this can pass values to State( two way data binding)
+		
+		/* {} Text Interpolation Syntax */    binding related anything can be mention here
+		/*View*/
+		
+		/* ngIf */
+		{booleanexp && <h1></h1>}
+		{booleanxp ? <h1></h1>:<h2></h2>}
+		
+		/* ngFor */
+		{ array.map(elm=> <li>elm</li> }
+	
+	<>);	
+
+
+
