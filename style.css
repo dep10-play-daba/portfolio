@@ -88,8 +88,12 @@ nav ul li a:hover::after {
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2>p{
+    margin-top: 40px;
+}
+
 .sub-title{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
 }
@@ -132,6 +136,9 @@ nav ul li a:hover::after {
 }
 .tab-contents.active-tab{
     display: block;
+}
+.about-col-2 ul li{
+    margin-top: 40px;
 }
 
 
@@ -214,12 +221,15 @@ nav ul li a:hover::after {
 }
 
 /*------------------contact----------------*/
-
+#contact{
+    margin-top: 60px;
+}
 .contact-left{
     flex-basis: 35%;
 }
 .contact-right{
     flex-basis: 60%;
+    line-height: 2rem;
 }
 
 .contact-left p{
@@ -280,12 +290,12 @@ form .btn2{
     display: none;
     visibility: hidden;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 720px){
     #header{
         background-image: url("images/finalized-mobile-standing-2.png");
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 50%;
         font-size: 16px;
     }
     .header-text h1{
@@ -298,6 +308,7 @@ form .btn2{
    nav .fas{
         display: block;
         font-size: 25px;
+       visibility: visible;
     }
    nav ul{
        background: orangered;
@@ -308,7 +319,6 @@ form .btn2{
        height: 100vh;
        padding-top: 10%;
        z-index: 2;
-
    }
    nav ul li {
        display: block;
@@ -346,6 +356,45 @@ form .btn2{
     }
 }
 
-@media only screen and (max-width: 600px){
-    
+@media only screen and (max-width: 920px){
+    #header{
+        background-image: url("images/finalized-mobile-standing-1.png");
+    }
+    .header-text{
+        margin-top: 20%;
+        font-size: 16px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        visibility: visible;
+    }
+    nav ul{
+        background: orangered;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 10%;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin: 25%;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        font-size: 30px;
+        top: 25px;
+        left: 25%;
+        cursor: pointer;
+    }
+
 }

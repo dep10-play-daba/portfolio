@@ -34,7 +34,7 @@ img{
     justify-content: center;
     align-items: center;
 }
-#home-content,#customer-content,#item-content,#order-content,#search-order-content{
+#home-content,#customer-content,#item-content,#order-content,#search-order-content,#validation-success,#responsive-light{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
