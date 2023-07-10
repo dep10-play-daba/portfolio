@@ -9,20 +9,22 @@
 <!--    <link rel="stylesheet" href="reset.css">-->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8e6f5ef4f8.js" crossorigin="anonymous"></script>
-    <script differ src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
 <div id="header">
     <div class="container">
         <nav>
             <img style="width: 200px" src="images/nishan-logo.png" class="logo">
-            <ul>
+            <ul id="sideMenu" name="sideMenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
+                <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
             </ul>
+            <i class=" fas fa-solid fa-bars" onclick="openMenu()"></i>
         </nav>
         <div class="header-text">
             <p>FULLSTACK DEVELOPER</p>
@@ -82,7 +84,7 @@
                 <div class="layer">
                     <h3>Social Media App</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate debitis, deserunt doloremque est eum eveniet expedita explicabo facere magnam minus non numquam officia perferendis sint sit soluta veritatis voluptate.</p>
-                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square fa-shake"></i></a>
+                    <a href="pos-system.html"><i class="fa-sharp fa-solid fa-up-right-from-square fa-shake"></i></a>
                 </div>
             </div>
             <div class="work">
