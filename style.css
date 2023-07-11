@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url("images/finalized-standing-1.png");
+    background-image:url("images/main/finalized-standing-1.png");
     background-size:cover;
     background-position: center;
 }
@@ -299,7 +299,7 @@ form .btn2{
 }
 @media only screen and (max-width: 720px){
     #header{
-        background-image: url("images/finalized-mobile-standing-2.png");
+        background-image: url("images/main/finalized-mobile-standing-2.png");
     }
     .header-text{
         margin-top: 50%;
@@ -365,7 +365,7 @@ form .btn2{
 
 @media only screen and (max-width: 920px){
     #header{
-        background-image: url("images/finalized-mobile-standing-1.png");
+        background-image: url("images/main/finalized-mobile-standing-1.png");
     }
     .header-text{
         margin-top: 20%;
