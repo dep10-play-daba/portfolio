@@ -8,6 +8,7 @@
 html{
     font-family: Ubuntu,sans-serif;
     background: black;
+    scroll-behavior: smooth;
 }
 body{
     color: white;
@@ -223,6 +224,7 @@ nav ul li a:hover::after {
 /*------------------contact----------------*/
 #contact{
     margin-top: 200px;
+    height: 100vh;
 
 }
 .contact-left{
